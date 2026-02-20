@@ -1,0 +1,42 @@
+{
+  ///////////////
+  /// General ///
+  ///////////////
+
+  // Functional
+  "files.trimFinalNewlines": true,
+  "files.associations": {
+    "LICENSE": "plaintext"
+  },
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "NOTICE",
+    "TODO"
+  ],
+
+  // Visual
+  "diffEditor.ignoreTrimWhitespace": false,
+  "todo-tree.highlights.defaultHighlight": {
+    "background": "#0000"
+  },
+
+  // Telemetry
+  "gitlens.telemetry.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "telemetry.telemetryLevel": "off", // NOTICE: Can only be turned off in the default settings
+  "intelephense.telemetry.enabled": false,
+
+  // Copilot
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "properties": false,
+    "markdown": false,
+    "scminput": false
+  }
+}
